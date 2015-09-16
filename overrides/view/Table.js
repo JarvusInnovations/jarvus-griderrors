@@ -4,7 +4,7 @@
  *
  * TODO: refactor into a CMD package and bundle with basic SASS
  */
-Ext.define('Jarvus.ext.override.view.TableErrors', {
+Ext.define('Jarvus.view.TableErrors', {
     override: 'Ext.view.Table',
 
     invalidCellCls: Ext.baseCSSPrefix + 'grid-cell-invalid',
