@@ -1,8 +1,6 @@
 /*jslint browser: true, undef: true *//*global Ext*/
 /**
  * Provides for marking rows or cells as invalid and displaying an error via QuickTip
- *
- * TODO: refactor into a CMD package and bundle with basic SASS
  */
 Ext.define('Jarvus.view.TableErrors', {
     override: 'Ext.view.Table',
